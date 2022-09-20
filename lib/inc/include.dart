@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 // Useful methods, used globally
 class Include {
   // Properties
-  Color appPrimaryColor = Color.fromRGBO(233, 72, 109, 1);
+  Color appPrimaryColor = const Color.fromRGBO(233, 72, 109, 1);
 
   // Methods
   Size screenSize(BuildContext context, window) {
