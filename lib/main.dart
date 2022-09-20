@@ -23,12 +23,12 @@ class _MainState extends State<Main> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primaryColor: Colors.pink, fontFamily: "Montserrat"),
-      home: Landing(),
+      home: const Landing(),
       routes: {
-        "/Signin": (BuildContext context) => Signin(),
-        "/Signup": (BuildContext context) => Signup(),
+        "/Signin": (BuildContext context) => const Signin(),
+        "/Signup": (BuildContext context) => const Signup(),
         "/Travel": (BuildContext context) => Travel(),
-        "/Discover": (BuildContext context) => Discover(),
+        "/Discover": (BuildContext context) => const Discover(),
       },
     );
   }
